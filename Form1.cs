@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -66,6 +66,7 @@ namespace JogoDaVelha
                 Xpontos.Text = Convert.ToString(Xplayer);
                 MessageBox.Show("Jogador X ganhou!");
                 turno = true;
+                
             }
             else
             {
@@ -77,7 +78,7 @@ namespace JogoDaVelha
         }
 
 
-        void Checagem(int Checagemlayer)
+        void Checagem(int ChecagemPlayer)
         {
             string suporte = "";
 
